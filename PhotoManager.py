@@ -48,7 +48,7 @@ class PhotoManagerGUI:
         self.fgcolor = '#e13352'
         self.font = ('Areal', 11, 'bold')
 
-        self.master.title('Bittu\'s Photo Manager')
+        self.master.title('Bittu\'s Image Browser & Manager')
         self.master.geometry('850x600+200+50')
         self.master.resizable(False,False)
         self.master.configure(background = self.bgcolor)
